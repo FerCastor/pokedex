@@ -1,3 +1,5 @@
+<br><a href="https://fercastor.github.io/pokedex/" target="_blank">Acessar Pokédex
+
 # Documentação do Projeto Pokédex
 
 ## Visão Geral
