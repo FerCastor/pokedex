@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Informações sobre o site -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <h1><img src="img/logo.png" alt="Logo Pokémon" class="homepage"/></h1>
+    
+    <!-- Barra de Pesquisa e Limite -->
+    <div class="divOpcoes">
+      <div class="inputContainer">
+        <!-- Barra de Pesquisa -->
+        <input
+          type="text"
+          name="inputSearch"
+          id="inputSearch"
+          class="inputSearch"
+          placeholder="Buscar Pokémon"
+        />
+        <button id="searchButton" class="searchButton">Buscar</button>
+      </div>
+      <div class="divLimit">
+        <!-- Campo de Limite -->
+        <input
+          type="text"
+          name="inputLimit"
+          id="inputLimit"
+          class="inputLimit"
+          placeholder="Cards exibidos"
+        />
+        <button id="updateLimit" class="searchButton">Atualizar</button>
+      </div>
+    </div>
+    
+    <!-- Conteúdo Principal -->
+    <main>
+      <!-- Lista de Pokémon -->
+      <ul data-js="pokedex" class="pokedex">
+         <!-- Cards dos Pokémon serão adicionados aqui -->
+      </ul>
+    </main>
+  </body>
+</html>
